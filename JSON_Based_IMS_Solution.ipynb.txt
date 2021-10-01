@@ -33,24 +33,8 @@
         "id": "PwjCLk6wPNlj",
         "outputId": "3f2f32e3-9b1c-4a36-e9a9-243622e2d273"
       },
-      "source": [
-        "!git clone https://github.com/AshishJangra27/Skill-India-AI-ML-Scholarship"
-      ],
-      "execution_count": 1,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "Cloning into 'Skill-India-AI-ML-Scholarship'...\n",
-            "remote: Enumerating objects: 81, done.\u001b[K\n",
-            "remote: Counting objects: 100% (81/81), done.\u001b[K\n",
-            "remote: Compressing objects: 100% (77/77), done.\u001b[K\n",
-            "remote: Total 81 (delta 31), reused 0 (delta 0), pack-reused 0\u001b[K\n",
-            "Unpacking objects: 100% (81/81), done.\n"
-          ]
-        }
-      ]
+       ,
+
     },
     {
       "cell_type": "markdown",
@@ -67,7 +51,7 @@
         "id": "q3bVaZImdkC0"
       },
       "source": [
-        "fd = open('/content/Skill-India-AI-ML-Scholarship/JSON Based Inventory management Assignment/record.json', 'r')\n",
+        "fd = open('JSON Based Inventory management Assignment/record.json', 'r')\n",
         "t = fd.read()\n",
         "fd.close()\n",
         "\n",
